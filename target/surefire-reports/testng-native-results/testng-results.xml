@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="22242" started-at="2020-07-07T16:23:41Z" finished-at="2020-07-07T16:24:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@3c09711b]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="22242" started-at="2020-07-07T16:23:41Z" finished-at="2020-07-07T16:24:03Z">
+      <class name="cucumber.Options.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumber.Options.TestRunner@3c09711b]" name="setUpClass" is-config="true" duration-ms="224" started-at="2020-07-07T16:23:41Z" finished-at="2020-07-07T16:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@3c09711b]" name="runScenario" duration-ms="18961" started-at="2020-07-07T16:23:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-07T16:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if place is getting successfully added using ADD_PLACE_API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Place API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@3c09711b]" name="runScenario" duration-ms="1441" started-at="2020-07-07T16:24:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-07T16:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if address is getting updated successfully using UPDATE_PLACE_API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Place API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@3c09711b]" name="runScenario" duration-ms="1367" started-at="2020-07-07T16:24:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-07T16:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if place is getting successfully deleted using DELETE_PLACE_API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Place API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber.Options.TestRunner@3c09711b]" name="tearDownClass" is-config="true" duration-ms="160" started-at="2020-07-07T16:24:03Z" finished-at="2020-07-07T16:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.Options.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
